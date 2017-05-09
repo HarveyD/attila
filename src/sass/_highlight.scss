@@ -1,123 +1,93 @@
 /*
-
-github.com style (c) Vasily Polovnyov <vast@whiteants.net>
-
+Atom One Dark by Daniel Gamage
+Original One Dark Syntax theme from https://github.com/atom/one-dark-syntax
+base:    #282c34
+mono-1:  #abb2bf
+mono-2:  #818896
+mono-3:  #5c6370
+hue-1:   #56b6c2
+hue-2:   #61aeee
+hue-3:   #c678dd
+hue-4:   #98c379
+hue-5:   #e06c75
+hue-5-2: #be5046
+hue-6:   #d19a66
+hue-6-2: #e6c07b
 */
 
 .hljs {
-	display: block;
-	color: #66645c;
-	-webkit-text-size-adjust: none;
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #abb2bf;
+  background: #282c34;
 }
 
 .hljs-comment,
-.diff .hljs-header,
-.hljs-javadoc {
-  color: #998;
+.hljs-quote {
+  color: #5c6370;
   font-style: italic;
 }
 
+.hljs-doctag,
 .hljs-keyword,
-.css .rule .hljs-keyword,
-.hljs-winutils,
-.nginx .hljs-title,
-.hljs-subst,
-.hljs-request,
-.hljs-status {
-  color: #333;
-  font-weight: bold;
+.hljs-formula {
+  color: #c678dd;
 }
 
-.hljs-number,
-.hljs-hexcolor,
-.ruby .hljs-constant {
-  color: #008080;
+.hljs-section,
+.hljs-name,
+.hljs-selector-tag,
+.hljs-deletion,
+.hljs-subst {
+  color: #e06c75;
+}
+
+.hljs-literal {
+  color: #56b6c2;
 }
 
 .hljs-string,
-.hljs-tag .hljs-value,
-.hljs-phpdoc,
-.hljs-dartdoc,
-.tex .hljs-formula {
-  color: #d14;
-}
-
-.hljs-title,
-.hljs-id,
-.scss .hljs-preprocessor {
-  color: #900;
-  font-weight: bold;
-}
-
-.hljs-list .hljs-keyword,
-.hljs-subst {
-  font-weight: normal;
-}
-
-.hljs-class .hljs-title,
-.hljs-type,
-.vhdl .hljs-literal,
-.tex .hljs-command {
-  color: #458;
-  font-weight: bold;
-}
-
-.hljs-tag,
-.hljs-tag .hljs-title,
-.hljs-rule .hljs-property,
-.django .hljs-tag .hljs-keyword {
-  color: #000080;
-  font-weight: normal;
-}
-
+.hljs-regexp,
+.hljs-addition,
 .hljs-attribute,
-.hljs-variable,
-.lisp .hljs-body,
-.hljs-name {
-  color: #008080;
+.hljs-meta-string {
+  color: #98c379;
 }
 
-.hljs-regexp {
-  color: #009926;
+.hljs-built_in,
+.hljs-class .hljs-title {
+  color: #e6c07b;
+}
+
+.hljs-attr,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-type,
+.hljs-selector-class,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-number {
+  color: #d19a66;
 }
 
 .hljs-symbol,
-.ruby .hljs-symbol .hljs-string,
-.lisp .hljs-keyword,
-.clojure .hljs-keyword,
-.scheme .hljs-keyword,
-.tex .hljs-special,
-.hljs-prompt {
-  color: #990073;
+.hljs-bullet,
+.hljs-link,
+.hljs-meta,
+.hljs-selector-id,
+.hljs-title {
+  color: #61aeee;
 }
 
-.hljs-built_in {
-  color: #0086b3;
+.hljs-emphasis {
+  font-style: italic;
 }
 
-.hljs-preprocessor,
-.hljs-pragma,
-.hljs-pi,
-.hljs-doctype,
-.hljs-shebang,
-.hljs-cdata {
-  color: #999;
+.hljs-strong {
   font-weight: bold;
 }
 
-.hljs-deletion {
-  background: #fdd;
+.hljs-link {
+  text-decoration: underline;
 }
-
-.hljs-addition {
-  background: #dfd;
-}
-
-.diff .hljs-change {
-  background: #0086b3;
-}
-
-.hljs-chunk {
-  color: #aaa;
-}
-

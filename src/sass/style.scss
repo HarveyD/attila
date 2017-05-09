@@ -34,7 +34,7 @@ html.menu-active,
 }
 
 body {
-	font: 400 2em / 1.5em 'Cardo', serif;
+	font: 400 2em / 1.5em 'Raleway', serif;
 	color: $color-blue-30;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
@@ -467,7 +467,7 @@ img {
 
 
 .inner {
-	max-width: 32em;
+	max-width: 720px;
 	margin: 0 auto;
 	padding: 0 2em;
 }
@@ -932,7 +932,7 @@ img {
    ========================================================================== */
 
 .post-info {
-	margin-top: 6em;
+	margin-top: 2em;
 	overflow: hidden;
 }
 .post-share {
