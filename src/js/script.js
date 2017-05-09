@@ -104,7 +104,7 @@ jQuery(function($) {
 			// for (i = 1; i < lines; i++) {
 			// 	numbers += '<span class="line">' + i + '</span>';
 			// }
-			code.parent().append('<div class="lines">' + numbers + '</div>');
+			//code.parent().append('<div class="lines">' + numbers + '</div>');
 		});
 	}
 	codestyling();
