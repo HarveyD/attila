@@ -1,7 +1,7 @@
 {
 	"name": "attila",
 	"description": "Ghost Theme",
-	"demo": "http://attila.zutrinken.com",
+	"demo": "http://blog.harveydelaney.com",
 	"version": "1.3.0",
 	"engines": {
 		"ghost": ">=0.9.0 <1.0.0"
@@ -12,8 +12,9 @@
 		"mobile": "src/screenshot-mobile.jpg"
 	},
 	"author": {
-		"name": "Peter Amende",
-		"url": "http://zutrinken.com"
+		"name": "Harvey Delaney",
+		"url": "https://www.harveydelaney.com",
+		"email": "harvey@harveydelaney.com"
 	},
 	"gpm": {
 		"type": "theme",
@@ -28,7 +29,7 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/zutrinken/attila.git"
+		"url": "https://github.com/HarveyD/attila.git"
 	},
 	"devDependencies": {
 		"autoprefixer-core": "^5.2.1",
